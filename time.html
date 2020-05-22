@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+		<script type="text/javascript">
+			var d=new Date();
+
+			
+			h=d.getHours();
+			m=d.getMinutes();
+			s=d.getSeconds();
+			
+			
+
+
+		
+			if(h>12)
+			{
+				document.body.innerHTML=h-12+":"+m+":"+s+"pm";
+			}
+			else
+			{
+				document.body.innerHTML=h+":"+m+":"+s+"am";
+			}
+				
+
+
+		</script>
+
+</body>
+</html>
